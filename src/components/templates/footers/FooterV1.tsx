@@ -170,7 +170,7 @@ export default function FooterV1() {
             <ul className="grid gap-3 text-sm text-muted-foreground">
               <li className="flex items-start justify-center md:justify-start gap-3">
                 <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
-                <span>{settings?.contact?.address || '123 Gentsity Avenue'}</span>
+                <span>{settings?.contact?.address || '123 EuropeBangla Avenue'}</span>
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <Phone size={16} className="text-primary shrink-0" />
@@ -178,7 +178,7 @@ export default function FooterV1() {
               </li>
               <li className="flex items-center justify-center md:justify-start gap-3">
                 <Mail size={16} className="text-primary shrink-0" />
-                <span>{settings?.contact?.email || 'support@Gentsity.com'}</span>
+                <span>{settings?.contact?.email || 'support@EuropeBangla.com'}</span>
               </li>
             </ul>
             {hasSocialLinks && (
@@ -222,7 +222,7 @@ export default function FooterV1() {
 
         <div className="mt-12 flex flex-col items-center justify-between border-t py-6 sm:flex-row text-sm text-muted-foreground gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <p>© {new Date().getFullYear()} {settings?.brandName || 'Gentsity'}. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} {settings?.brandName || 'EuropeBangla'}. All rights reserved.</p>
           </div>
 
           <div className="flex items-center gap-6">

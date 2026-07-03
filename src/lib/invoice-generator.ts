@@ -5,7 +5,7 @@ import { format, isValid } from 'date-fns';
 export async function generateInvoicePDF(order: any, settings: any, mode: 'download' | 'print' = 'download') {
   const doc = new jsPDF();
 
-  const brandName = settings?.brandName || "Gentsity";
+  const brandName = settings?.brandName || "EuropeBangla";
   const brandEmail = settings?.contact?.email || "";
   const brandPhone = settings?.contact?.phone || "";
   const brandAddress = settings?.contact?.address || "";

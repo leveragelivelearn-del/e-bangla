@@ -1,5 +1,5 @@
 export const productTitles = [
-  "Gentsity Wellness Pro",
+  "EuropeBangla Wellness Pro",
   "Urban Velocity Sneakers",
   "CloudWalk Elite Performance",
   "Stealth Neo-Classic Lows",

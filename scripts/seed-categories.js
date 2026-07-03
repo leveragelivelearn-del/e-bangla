@@ -16,7 +16,7 @@ if (fs.existsSync(envPath)) {
 
 if (!mongodbUri) {
   // Fallback if env file doesn't parse correctly
-  mongodbUri = 'mongodb+srv://gentsity:xI2QuBaFZsYQ5vRD@cluster0.e5n1hnl.mongodb.net/gentsity';
+  mongodbUri = 'mongodb+srv://EuropeBangla:xI2QuBaFZsYQ5vRD@cluster0.e5n1hnl.mongodb.net/EuropeBangla';
 }
 
 console.log('Connecting to MongoDB...');
@@ -73,7 +73,7 @@ async function seed() {
       await mongoose.connect(mongodbUri);
     } catch (connErr) {
       console.log('SRV connection failed, trying direct connection fallback...');
-      const directUri = 'mongodb://gentsity:xI2QuBaFZsYQ5vRD@ac-jrowhop-shard-00-00.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-01.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-02.e5n1hnl.mongodb.net:27017/gentsity?ssl=true&authSource=admin';
+      const directUri = 'mongodb://EuropeBangla:xI2QuBaFZsYQ5vRD@ac-jrowhop-shard-00-00.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-01.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-02.e5n1hnl.mongodb.net:27017/EuropeBangla?ssl=true&authSource=admin';
       await mongoose.connect(directUri);
     }
     console.log('Connected to MongoDB successfully.');

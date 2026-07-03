@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const directUri = 'mongodb://gentsity:xI2QuBaFZsYQ5vRD@ac-jrowhop-shard-00-00.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-01.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-02.e5n1hnl.mongodb.net:27017/gentsity?ssl=true&authSource=admin';
+const directUri = 'mongodb://EuropeBangla:xI2QuBaFZsYQ5vRD@ac-jrowhop-shard-00-00.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-01.e5n1hnl.mongodb.net:27017,ac-jrowhop-shard-00-02.e5n1hnl.mongodb.net:27017/EuropeBangla?ssl=true&authSource=admin';
 
 console.log('Connecting to MongoDB directly...');
 mongoose.connect(directUri)

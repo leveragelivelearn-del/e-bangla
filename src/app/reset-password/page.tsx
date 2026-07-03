@@ -296,7 +296,7 @@ export default function ResetPasswordPage() {
         </motion.div>
 
         <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Gentsity. All rights reserved.
+          &copy; {new Date().getFullYear()} EuropeBangla. All rights reserved.
         </div>
       </div>
     </div>
